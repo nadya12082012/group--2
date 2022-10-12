@@ -7,12 +7,15 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+
+
 .wraper {
-    width: 80%;
     max-width: 1200px;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .footer_content {
     display: flex;
@@ -97,3 +100,134 @@ button {
 .icon:nth-child(3) {
     margin-left: 20px;
 } 
+
+.section_promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 614px;
+}
+
+.logo {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+span {
+    display: block;
+    color: #757575;
+    margin-bottom: 24px;
+    font-size: 20px;
+   
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    width: 952px;
+    margin-bottom: 32px;
+}
+
+.desc {
+    display: block;
+    text-align: center;
+    margin-bottom: 68px;
+    
+
+}
+
+.block_but {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 22px;
+    width: 191px;
+    height: 40px;
+}
+
+.lern {
+    letter-spacing: 0.46px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3563E9;
+    border: none;
+    background-color: white;
+}
+
+.icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+
+.block__four {
+  
+    height: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    
+    font-size: 48px;
+    width: 952px;
+    line-height: 58px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+span {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #757575;
+}
+
+h4 {
+    margin-left: 22px;
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+p {
+    width: 333px;
+    margin-left: 22px;
+    font-size: 16px;
+    color: #616161;
+}
+
+.content {
+    width: 377px;
+    height: 233px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.main_block {
+    width: 1200px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-column-gap: 23px;*/
+    grid-row-gap: 23px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    padding: 22px;
+
+}
+
