@@ -31,5 +31,23 @@ body {
 }
 
 span {
+    display: block;
     color: #757575;
+    margin-bottom: 24px;
+    font-size: 20px;
+   
 }
+
+h2 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 68px;
+    text-align: center;
+    width: 952px;
+    margin-bottom: 32px;
+}
+
+.desc {
+    display: block;
+    text-align: center;
+    margin-bottom: 68px;
