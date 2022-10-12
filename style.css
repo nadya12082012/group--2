@@ -2,3 +2,25 @@
     margin: 0;
     padding: 0;
 }
+
+.wraper {
+    max-width: 1200px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_promo {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+}
+
+.logo {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
