@@ -1,0 +1,145 @@
+* {
+        font-family: 'Inter';
+        max-width: 1200px;
+}
+
+.block_6, .block_7 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 120px;
+}
+
+.block_6 {
+    background: #F7F9FE;
+}
+
+.descr {
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #757575;
+}
+.heading {
+    font-weight: 600;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.2px; 
+}
+.btn {
+    width: 413px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 60px;
+}
+
+.click {
+    width: 204px;
+    height: 44px;
+    position: relative;
+}
+
+.quest {
+    background: #3563E9;
+    border: none;
+}
+
+.free {
+    border: 1px solid #3563E9;
+    background: none;
+}
+
+a {  
+    padding-right: 30px;
+    letter-spacing: 0.46px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.blue {
+    color: #FFFFFF;
+}
+
+.quotes {
+    color:#3563E9;
+}
+
+.arrow, .arrow_down {
+    position: absolute;
+    width: 9px;
+    height: 2px;
+    background: #3563E9;
+    top: 24px;
+    left: 148px;
+}
+
+.arrow_blue, .arrow_up {
+    transform: rotate(45deg);
+    transform-origin: bottom right;
+    top: 22px;
+    left: 146px;
+}
+
+.right, .arrow_left {
+    transform: rotate(-45deg);
+}
+
+.arrow_left, .arrow_blue {
+    background: #FFFFFF;
+}
+
+.descr_seven {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.information {
+    padding-left: 10px;
+    width: 743px;
+    height: 72px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 15px 20px 75px;
+    border-left: 2px #3563E9 solid;
+}
+
+.inform {
+    margin-top: 70px;
+    margin-left: 110px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+summary {
+    margin-top: 22px;
+    width: 843px;
+    height: 46px;
+    list-style: none;
+    
+}
+summary:before {
+    content: "+";
+    font-size: 20px;
+    font-weight: bold;
+    margin: 22px 21px 22px 0px;
+    color:#3563E9
+    
+ }
+ 
+details[open] summary:before {
+    content: "-";
+    border-bottom: none;
+ }
+
+ hr {
+    border: none;
+	border-top: 1px solid #cec6c6;
+ }
