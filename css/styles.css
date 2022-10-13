@@ -1,0 +1,117 @@
+.Hero {
+    display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center; 
+width: 1440px;
+height: 735px;
+background: #FFFFFF url(Image/Image1.png) no-repeat;
+background-size: contain;
+border: 1px solid rgb(14, 13, 13);
+
+}
+.Frame10{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 50px; 
+width: 974px;
+height: 292px;
+left: calc(50% - 974px/2);
+top: calc(50% - 292px/2);
+
+}
+.Frame9{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+width: 974px;
+height: 190px;
+}
+.Text1{
+ width: 974px;
+height: 190px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 68px;
+text-align: center;
+letter-spacing: 1.2px;
+text-transform: capitalize;
+color: #212121;
+}
+.Text2{
+ width: 733px;
+height: 38px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.2px;
+color: #424242;
+}
+.ButtonContener{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px 50px;
+gap: 10px;
+width: 205px;
+height: 52px;
+background: #3563E9;
+border: none;
+
+}
+.Button{
+width: 105px;
+height: 22px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+letter-spacing: 0.46px;
+color: #FFFFFF;
+}
+.HomeWork{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.Test{
+    width: 1440px;
+height: 643px;
+border: 1px solid red;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+}
+.Frame17{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+border: 1px solid rgb(18, 212, 122);
+
+width: 1200px;
+height: 114px;
+
+}
+
+
+
