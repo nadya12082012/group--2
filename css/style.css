@@ -1,6 +1,12 @@
 * {
         font-family: 'Inter';
         max-width: 1200px;
+	
+}
+
+body {
+	margin-left: auto;
+	margit-right: auto;
 }
 
 .block_6, .block_7 {
